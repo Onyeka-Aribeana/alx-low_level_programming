@@ -15,6 +15,7 @@ if (ch < '9')
 putchar(44);
 putchar(10);
 }
+}
 putchar('\n');
 return (0);
 }
