@@ -17,7 +17,7 @@ putchar(i);
 putchar(j);
 if (i == 56 && j == 57)
 {
-continue;
+break;
 }
 putchar(44);
 putchar(32);
