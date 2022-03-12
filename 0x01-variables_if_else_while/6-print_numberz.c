@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-char ch;
-for (ch = '0'; ch <= '9'; ch++)
+int i;
+for (i = 0; i <= 9; ch++)
 {
-putchar(ch);
+putchar(i%10);
 }
 putchar('\n');
 return (0);
