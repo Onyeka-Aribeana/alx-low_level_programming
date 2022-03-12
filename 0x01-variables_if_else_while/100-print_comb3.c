@@ -20,6 +20,7 @@ if (i != 56 && j != 57)
 putchar(44);
 putchar(32);
 }
+j = j + 1;
 }
 }
 putchar('\n');
