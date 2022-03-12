@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-char ch;
-for (ch = '0'; ch <= '9'; ch++)
+int i;
+for (i = 48; i <= 57; i++)
 {
-putchar(ch);
-if (ch < '9')
+putchar(i);
+if (i < 9)
 {
 putchar(44);
 putchar(10);
