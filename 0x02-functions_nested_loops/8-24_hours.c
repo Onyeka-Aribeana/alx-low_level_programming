@@ -26,7 +26,7 @@ _putchar(j);
 _putchar(':');
 for (l = 48; l <= 54; l++)
 {
-_putchar(k);
+_putchar(l);
 if (l == 54)
 {
 b = 48;
