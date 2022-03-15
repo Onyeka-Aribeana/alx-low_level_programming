@@ -24,10 +24,10 @@ for (j = 48; j <= a; j++)
 {
 _putchar(j);
 _putchar(':');
-for (k = 48; k <= 54; k++)
+for (l = 48; l <= 54; l++)
 {
 _putchar(k);
-if (k == 54)
+if (l == 54)
 {
 b = 48;
 }
@@ -35,7 +35,7 @@ else
 {
 b = 57;
 }
-for (l = 48; l <= b; l++)
+for (m = 48; m <= b; m++)
 {
 _putchar(l);
 _putchar('\n');
