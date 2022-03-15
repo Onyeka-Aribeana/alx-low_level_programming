@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include "main.h"
 void print_times_table(int);
@@ -19,7 +20,18 @@ for (j = 0; j <= n; j++)
 {
 if (j != n)
 {
+if (j < 10)
+{
 printf("%d,   ", i * j);
+}
+else if (j > 10 && j < 100)
+{
+printf("%d,  ", i * j);
+}
+else
+{
+printf("%d, ", i * j);
+}
 }
 else
 {
