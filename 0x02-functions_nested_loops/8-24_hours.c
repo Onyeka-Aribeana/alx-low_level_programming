@@ -21,17 +21,9 @@ a = 51;
 }
 for (j = 48; j <= a; j++)
 {
-for (l = 48; l <= 54; l++)
+for (l = 48; l <= 53; l++)
 {
-if (l == 54)
-{
-b = 48;
-}
-else
-{
-b = 57;
-}
-for (m = 48; m <= b; m++)
+for (m = 48; m <= 57; m++)
 {
 _putchar(i);
 _putchar(j);
