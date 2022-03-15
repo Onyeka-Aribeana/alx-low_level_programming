@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "main.h"
-void print_alphabet(void);
+void print_alphabet_x10(void);
 /**
- * print_alphabet - print the alphabet in lowercase
+ * print_alphabet_x10 - print the alphabet in lowercase
  *
  * Description: does my stuff
  *
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 char ch;
 int i;
