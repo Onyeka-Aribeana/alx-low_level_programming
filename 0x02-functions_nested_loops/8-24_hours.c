@@ -37,7 +37,7 @@ b = 57;
 }
 for (m = 48; m <= b; m++)
 {
-_putchar(l);
+_putchar(m);
 _putchar('\n');
 }
 }
