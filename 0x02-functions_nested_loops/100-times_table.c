@@ -39,7 +39,18 @@ printf(", %d", i * j);
 }
 else
 {
-printf("%d\n", i * j);
+if (j < 10)
+{
+printf(",   %d\n", i * j);
+}
+else if (j > 10 && j < 100)
+{
+printf(",  %d\n", i * j);
+}
+else
+{
+printf(", %d\n", i * j);
+}
 }
 }
 }
