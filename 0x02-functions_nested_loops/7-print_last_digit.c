@@ -14,6 +14,7 @@ int i;
 if (n < 0)
 {
 n = n * -1;
+}
 i = (long int) n % 10;
 _putchar(48 + (n % i));
 return (n % i);
