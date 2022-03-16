@@ -8,7 +8,7 @@
 int main(void)
 {
 long int i = 1, j = 2, k = 0, m;
-while (true)
+while (i)
 {
 m = j;
 j = j + i;
@@ -24,7 +24,7 @@ if (j % 2 == 0)
 k = k + j;
 }
 }
-printf("%ld\n", k + 2);
 }
+printf("%ld\n", k + 2);
 return (0);
 }
