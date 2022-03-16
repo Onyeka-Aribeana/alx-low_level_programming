@@ -22,7 +22,7 @@ k = j + 1;
 printf("%d", i * j);
 if (i * k < 10)
 {
-printf(",   ";
+printf(",   ");
 }
 else if (i * k >= 10)
 {
