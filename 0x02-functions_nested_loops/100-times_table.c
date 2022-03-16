@@ -9,7 +9,7 @@
  */
 void print_times_table(int n)
 {
-int i, j;
+  int i, j, k;
 if (n <= 15 && n >= 0)
 {
 for (i = 0; i <= n; i++)
@@ -18,16 +18,17 @@ for (j = 0; j <= n; j++)
 {
 if (j != n)
 {
+k = j + 1;
 printf("%d", i * j)
-if (i * (++j) < 10 || j == 0)
+if (i * (k) < 10 || j == 0)
 {
 printf(",   ");
 }
-else if (i * (++j) >= 10)
+else if (i * (k) >= 10)
 {
 printf(",  ");
 }
-else if (i * (++j) >= 100)
+else if (i * (k) >= 100)
 {
 printf(", ");
 }
