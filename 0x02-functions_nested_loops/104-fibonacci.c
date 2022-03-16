@@ -8,8 +8,8 @@
 int main(void)
 {
 unsigned long int i = 1, j = 2, k, m;
-printf("%ld, ", i);
-printf("%ld, ", j);
+printf("%lu, ", i);
+printf("%lu, ", j);
 for (k = 0; k < 96; k++)
 {
 m = j;
