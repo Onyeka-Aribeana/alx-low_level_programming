@@ -20,7 +20,7 @@ if (j != n)
 {
 k = j + 1;
 printf("%d", i * j);
-if (i * k < 10 || j == 0)
+if (i * k < 1)
 {
 printf(",   ");
 }
