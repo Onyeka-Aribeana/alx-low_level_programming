@@ -24,7 +24,7 @@ if (i * k < 10)
 {
 printf(",   ");
 }
-else if (i * k >= 10)
+else if ((i * k) >= 10 && (i * k) < 100)
 {
 printf(",  ");
 }
