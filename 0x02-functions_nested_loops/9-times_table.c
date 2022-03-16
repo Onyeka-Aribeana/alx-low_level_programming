@@ -1,41 +1,35 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_times_table - prints absolute of number
- * @n: number
+ * times_table - prints absolute of number
  *
  * Description: does my stuff
  * Return: 1 or 0
  */
-void print_times_table(int n)
+void times_table(void)
 {
-  int i, j;
-  if (n <= 15 && n >= 0)
-    {
-      for (i = 0; i <= n; i++)
-	{
-	  for (j = 0; j <= n; j++)
-	    {
-	      if (j != n)
-		{
-		  if (i * (++j) < 10)
-		    {
-		      printf("%d,   ", i * j);
-		    }
-		  else if (i * (++j) >= 10)
-		    {
-		      printf("%d,  ", i * j);
-		    }
-		  else if (i * (++j) >= 100)
-		    {
-		      printf("%d, ", i * j);
-		    }
-		}
-	      else
-		{
-		  printf("%d", i * j);
-		}
-	    }
-	}
-    }
+int i, j, k;
+for (i = 0; i <= 9; i++)
+{
+for (j = 0; j <= 9; j++)
+{
+if (j != 9)
+{
+k = j + 1;
+printf("%d", i * j);
+if (i * k < 10)
+{
+printf(",   ");
+}
+else if ((i * k) >= 10 && (i * k) < 100)
+{
+printf(", ");
+}
+}
+else
+{
+printf("%d\n", i * j);
+}
+}
+}
 }
