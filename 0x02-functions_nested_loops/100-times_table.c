@@ -18,17 +18,18 @@ for (j = 0; j <= n; j++)
 {
 if (j != n)
 {
-if (i * (++j) < 10)
+printf("%d", i * j)
+if (i * (++j) < 10 || j == 0)
 {
-printf("%d,   ", i * j);
+printf(",   ");
 }
 else if (i * (++j) >= 10)
 {
-printf("%d,  ", i * j);
+printf(",  ");
 }
 else if (i * (++j) >= 100)
 {
-printf("%d, ", i * j);
+printf(", ");
 }
 }
 else
