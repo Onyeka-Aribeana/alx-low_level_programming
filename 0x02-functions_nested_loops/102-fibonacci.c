@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-double i = 1, j = 2, k, m;
-printf("%f, ", i);
-printf("%f, ", j);
+long int i = 1, j = 2, k, m;
+printf("%ld, ", i);
+printf("%ld, ", j);
 for (k = 0; k < 48; k++)
 {
 m = j;
@@ -17,11 +17,11 @@ j = j + i;
 i = m;
 if (k < 47)
 {
-printf("%f, ", j);
+printf("%ld, ", j);
 }
 else
 {
-printf("%f\n", j);
+printf("%ld\n", j);
 }
 }
 return (0);
