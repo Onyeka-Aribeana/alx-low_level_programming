@@ -19,16 +19,16 @@ for (j = 0; j <= n; j++)
 if (j != n)
 {
 k = j + 1;
-printf("%d", i * j)
-if (i * (k) < 10 || j == 0)
+printf("%d", i * j);
+if (i * k < 10 || j == 0)
 {
 printf(",   ");
 }
-else if (i * (k) >= 10)
+else if (i * k >= 10)
 {
 printf(",  ");
 }
-else if (i * (k) >= 100)
+else if (i * k >= 100)
 {
 printf(", ");
 }
