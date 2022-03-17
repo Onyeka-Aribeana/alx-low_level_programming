@@ -1,13 +1,18 @@
 #include <stdio.h>
+#include <unistd.h>
 #include "main.h"
+
 
 /**
  * print_number - prints in string
  * @n: number
  *
+ *
  * Description: does my stuff
  * Return: 1 or 0
  */
+
+
 void print_number(int n)
 {
 int i, j, k, l;
