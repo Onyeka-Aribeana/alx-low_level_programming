@@ -9,7 +9,7 @@
  */
 void more_numbers(void)
 {
-int n, m = 57, p;
+int n, p, m = 57;
 char c = '';
 for (p = 0; p < 2; p++)
 {
