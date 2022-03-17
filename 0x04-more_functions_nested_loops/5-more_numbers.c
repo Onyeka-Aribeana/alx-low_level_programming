@@ -9,20 +9,22 @@
  */
 void more_numbers(void)
 {
-int n, p, m = 57;
-char c = '';
+int n, p, m = 57, c = 0, z;
+for(z = 0; z < 10; z++)
+{
 for (p = 0; p < 2; p++)
 {
-_putchar(c);
 for (n = 48; n <= m; n++)
 {
+_putchar(c);
 _putchar(n);
 if (n == 57)
 {
 m = 52;
-c = '1';
+c = 49;
 }
 }
 }
 _putchar('\n');
+}
 }
