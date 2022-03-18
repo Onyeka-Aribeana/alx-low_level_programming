@@ -1,30 +1,24 @@
 #include <stdio.h>
-#include "main.h"
 #include <math.h>
+
 /**
- * main - Entry point
- *
+ * main - finds and prints the largest prime factor of the number 612852475143
+ * followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-long long int i, max = -1, n = 612852475143;
-while (n % 2 == 0)
+int c;
+long num = 612852475143;
+
+for (c = (int) sqrt(num); c > 2; c++)
 {
-max = 2;
-n = n / 2;
-}
-for (i = 3; i <= sqrt(n); i = i + 2)
+if (num % c == 0)
 {
-while (n % i == 0)
-{
-max = i;
-n = n / i;
+printf("%d\n", c);
+break;
 }
 }
-if (n > 2)
-{
-max = n;
-}
-printf("%d\n", max);
+
+return (0);
 }
