@@ -1,32 +1,38 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * more_numbers - print more numbers
+ * more_numbers -print 10 times the numbers, from 0 to 14
  *
- * Description: does my stuff
- * Return: 1 or 0
+ * return: alway 0.
  */
 void more_numbers(void)
 {
-int n, p, m = 57, c = 0, z;
-for (z = 0; z < 10; z++)
+int i;
+int j;
+int k;
+int l;
+
+i = 0;
+l = 0;
+while (i < 10)
 {
-for (p = 0; p < 2; p++)
+while (l <= 14)
 {
-for (n = 48; n <= m; n++)
+if (l < 10)
 {
-_putchar(c);
-_putchar(n);
-if (n == 57)
-{
-m = 52;
-c = 49;
+k = l;
 }
+else
+{
+j = l / 10;
+k = l % 10;
+_putchar (j + '0');
 }
+_putchar (k + '0');
+
+l++;
 }
-c = 0;
-m = 57;
-_putchar('\n');
+i++;
+l = 0;
+_putchar ('\n');
 }
 }
