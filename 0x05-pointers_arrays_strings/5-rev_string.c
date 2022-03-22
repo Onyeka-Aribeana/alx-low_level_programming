@@ -12,19 +12,17 @@ void print_rev(char *s)
 {
 int x, u, i;
 i = 0;
- char *a, *z, c;
+char c;
 u = 0;
 while (s[u] != '\0')
 {
 u++;
 }
-a = s;
-z = s;
-for (x = u - 1; x >= 0; x--)
+u = u - 1;
+for (x = 0; x < u / 2; x--)
 {
-d[i] = s[x];
-i++;
+c = s[i];
+s[i] = s[u];
+s[u--] = c;
 }
-d[u] = '\0';
-*s = *d;
 }
