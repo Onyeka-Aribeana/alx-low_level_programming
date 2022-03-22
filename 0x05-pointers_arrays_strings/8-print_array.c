@@ -19,7 +19,7 @@ _putchar(0);
 }
 else if (n == 0)
 {
-printf("%d\n", a[n]);
+printf("\n");
 }
 else
 {
