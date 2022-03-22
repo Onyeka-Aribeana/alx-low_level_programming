@@ -16,7 +16,6 @@ int i;
 if (n <= 0)
 {
 _putchar(0);
-_putchar(0);
 }
 else
 {
