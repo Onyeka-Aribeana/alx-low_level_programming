@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _puts2 - return length of string
+ * puts2 - return length of string
  * @str: char array
  *
  * Description: do stuff
