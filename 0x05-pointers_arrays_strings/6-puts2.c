@@ -14,11 +14,10 @@ int u;
 u = 0;
 while (str[u] != '\0')
 {
-if (u % 2 == 1)
+if (u % 2 == 0)
 {
-continue;
-}
 _putchar(str[u]);
+}
 u++;
 }
 _putchar('\n');
