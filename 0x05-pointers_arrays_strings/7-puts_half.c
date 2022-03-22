@@ -21,7 +21,7 @@ if (u % 2 == 1)
 u--;
 }
 n = u / 2;
-for (x = n; x <= u; x--)
+for (x = n; x <= u; x++)
 {
 _putchar(str[x]);
 }
