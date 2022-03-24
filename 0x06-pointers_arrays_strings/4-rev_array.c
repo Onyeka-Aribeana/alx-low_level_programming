@@ -4,7 +4,7 @@
 /**
  * reverse_array - resets variable to 98
  * @a: arr
- * @n: arr
+ * @n: number
  *
  * Description: do my stuff
  * Return: Always 0.
@@ -12,7 +12,7 @@
 void reverse_array(int *a, int n)
 {
 int i, j;
-int dest[n];
+int dest[20x];
 for (i = 0; i < n; i++)
 {
 dest[i] = a[i];
