@@ -17,5 +17,10 @@ for (i = 0; i < n; i++)
 {
 dest[i] = src[i];
 }
+while (dest[u] != '\0')
+{
+u++;
+}
+dest[u] = '\0';
 return (dest);
 }
